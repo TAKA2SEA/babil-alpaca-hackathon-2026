@@ -1,0 +1,8 @@
+# Phase 1: pinned exact versions, installed only inside
+# /root/alpaca_hackathon_2026/.venv (never system Python, never
+# /root/truth_ai_lab/venv). alpaca-py==0.43.4 matches the version already
+# inspected in the Phase 2 SDK audit (Options contract discovery, chain,
+# MLEG, OrderClass docstring confirming BRACKET/OCO/OTO are equity-only),
+# so those confirmed facts remain valid for this exact pin.
+alpaca-py==0.43.4
+requests==2.34.2

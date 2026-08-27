@@ -1,0 +1,4 @@
+# Dev/test-only dependency, installed only inside
+# /root/alpaca_hackathon_2026/.venv (never system Python). Not needed at
+# runtime - only for running tests/test_discovery_and_risk.py.
+pytest==8.4.1
